@@ -149,6 +149,14 @@ export default function Home() {
               <p className="topic-description-zh">统计学博士研究生 · 中国人民大学统计与大数据研究院</p>
             </div>
           </div>
+          <div className="cv-row">
+            <div className="cv-date">2025</div>
+            <div>
+              <h3>Bachelor of Science</h3>
+              <p>Beijing Normal University</p>
+              <p className="topic-description-zh">理学学士 · 北京师范大学</p>
+            </div>
+          </div>
         </section>
       </main>
 
