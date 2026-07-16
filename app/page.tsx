@@ -73,7 +73,7 @@ export default function Home() {
               at the <a href="https://isbd.ruc.edu.cn/" target="_blank" rel="noreferrer">Institute of Statistics and Big Data</a>,
               <code> Renmin University of China</code>, where I am fortunate to be advised by
               <a href="https://cheng-bdal.github.io/" target="_blank" rel="noreferrer"> Dr. Cheng Meng</a>.
-              Previously, I received my B.S. degree from <a href="https://www.bnu.edu.cn/" target="_blank" rel="noreferrer">Beijing Normal University</a> in 2025.
+              Previously, I received my B.S. degree from the <a href="https://www.bnu.edu.cn/" target="_blank" rel="noreferrer">School of Mathematical Sciences, Beijing Normal University</a>, in 2025.
             </p>
             <p>
               My research lies at the intersection of modern statistical computation and structured
