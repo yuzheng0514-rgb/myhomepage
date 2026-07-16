@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "董雨铮 | Yuzheng Dong",
-    template: "%s · 董雨铮",
+    default: "Yuzheng Dong",
+    template: "%s · Yuzheng Dong",
   },
   description:
-    "董雨铮，中国人民大学统计与大数据研究院博士生。研究方向：最优传输、子数据抽样与时间序列。",
+    "Academic homepage of Yuzheng Dong, a Ph.D. student at Renmin University of China working on optimal transport, data subsampling, and time series.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>{children}</body>
     </html>
   );
