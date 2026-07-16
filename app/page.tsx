@@ -42,7 +42,6 @@ export default function Home() {
           <div className="nav-links">
             <a href="#about">about</a>
             <a href="#research">research</a>
-            <a href="#cv">CV</a>
             <ThemeToggle />
           </div>
         </nav>
@@ -75,7 +74,9 @@ export default function Home() {
             <p>
               Welcome to my homepage! I am <code>Yuzheng Dong</code>, a second-year Ph.D. student
               at the <a href="https://isbd.ruc.edu.cn/" target="_blank" rel="noreferrer">Institute of Statistics and Big Data</a>,
-              <code> Renmin University of China</code>.
+              <code> Renmin University of China</code>, where I am fortunate to be advised by
+              <a href="https://cheng-bdal.github.io/" target="_blank" rel="noreferrer"> Dr. Cheng Meng</a>.
+              Previously, I received my B.S. degree from <a href="https://www.bnu.edu.cn/" target="_blank" rel="noreferrer">Beijing Normal University</a> in 2025.
             </p>
             <p>
               My research lies at the intersection of modern statistical computation and structured
@@ -84,8 +85,10 @@ export default function Home() {
               efficient methods for large-scale, distribution-shifting, and temporally dependent data.
             </p>
             <p className="zh-copy">
-              欢迎来到我的个人主页！我是中国人民大学统计与大数据研究院博士生。我的研究兴趣位于现代统计计算与结构化数据的交叉地带，
-              目前主要关注最优传输、子数据抽样与时间序列，希望发展兼具理论保证和计算效率的统计方法。
+              欢迎来到我的个人主页！我是中国人民大学统计与大数据研究院博士生，目前师从
+              <a href="https://cheng-bdal.github.io/" target="_blank" rel="noreferrer">孟程老师</a>。
+              此前，我于 2025 年毕业于北京师范大学，获理学学士学位。我的研究兴趣位于现代统计计算与结构化数据的交叉地带，
+              主要关注最优传输、子数据抽样与时间序列，希望发展兼具理论保证和计算效率的统计方法。
             </p>
             <p>
               I am always happy to exchange ideas and explore potential collaborations in related areas.
@@ -139,25 +142,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="cv" className="content-section cv-section">
-          <h2 className="section-title">CV</h2>
-          <div className="cv-row">
-            <div className="cv-date">Present</div>
-            <div>
-              <h3>Ph.D. Student in Statistics</h3>
-              <p>Institute of Statistics and Big Data, Renmin University of China</p>
-              <p className="topic-description-zh">统计学博士研究生 · 中国人民大学统计与大数据研究院</p>
-            </div>
-          </div>
-          <div className="cv-row">
-            <div className="cv-date">2025</div>
-            <div>
-              <h3>Bachelor of Science</h3>
-              <p>Beijing Normal University</p>
-              <p className="topic-description-zh">理学学士 · 北京师范大学</p>
-            </div>
-          </div>
-        </section>
       </main>
 
       <footer>
