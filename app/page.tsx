@@ -52,9 +52,13 @@ export default function Home() {
           </header>
 
           <aside className="profile">
-            <div className="profile-photo" role="img" aria-label="Profile photo placeholder">
-              <span>DYZ</span>
-              <small>photo coming soon</small>
+            <div className="profile-photo">
+              <img
+                src="./profile.jpg"
+                alt="Portrait of Yuzheng Dong"
+                width="1280"
+                height="1280"
+              />
             </div>
             <div className="profile-info">
               Institute of Statistics and Big Data<br />
