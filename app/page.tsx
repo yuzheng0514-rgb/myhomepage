@@ -44,7 +44,7 @@ export default function Home() {
       <main className="container">
         <section id="about" className="about-section">
           <header className="post-header">
-            <h1>Yuzheng Dong</h1>
+            <h1>Yuzheng Dong (董雨铮)</h1>
             <p>
               Ph.D. Student, Institute of Statistics and Big Data,
               <br className="mobile-break" /> Renmin University of China
